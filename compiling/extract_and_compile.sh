@@ -17,3 +17,5 @@ gcc $scratch/NthPrime/main.c $scratch/NthPrime/nth_prime.c -o $scratch/NthPrime/
 output=$($scratch/NthPrime/NthPrime $input)
 
 echo $output
+
+rm -rf $scratch
